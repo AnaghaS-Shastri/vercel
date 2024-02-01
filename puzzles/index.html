@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Puzzles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Play Puzzles</h1>
+    </header>
+
+    <main>
+        <section id="sudoku" class="puzzle-section">
+            <h2>Sudoku</h2>
+            <div id="sudoku-board" class="puzzle-board"></div>
+            <button onclick="generateSudoku()">Generate New Sudoku</button>
+        </section>
+
+        <section id="crossword" class="puzzle-section">
+            <h2>Crossword</h2>
+            <div id="crossword-board" class="puzzle-board"></div>
+            <button onclick="generateCrossword()">Generate New Crossword</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
