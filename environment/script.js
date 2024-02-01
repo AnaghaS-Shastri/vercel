@@ -1,3 +1,5 @@
+
+import { SpeedInsights } from "@vercel/speed-insights/next"
 // Tic Tac Toe
 const board = document.getElementById("board");
 const status = document.getElementById("status");
