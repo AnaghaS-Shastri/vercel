@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
 // Sudoku Puzzle
 function generateSudoku() {
     // Implement Sudoku generation logic here
