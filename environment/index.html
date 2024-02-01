@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Simple Games!</h1>
+    
+    <div id="ticTacToe">
+        <h2>Tic Tac Toe</h2>
+        <div id="board" class="board"></div>
+        <div id="status" class="status"></div>
+    </div>
+
+    <div id="numberGuess">
+        <h2>Number Guessing Game</h2>
+        <p>Guess a number between 1 and 10:</p>
+        <input type="number" id="guessInput">
+        <button onclick="checkGuess()">Submit Guess</button>
+        <p id="guessResult"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
